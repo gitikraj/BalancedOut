@@ -26,12 +26,12 @@ const Header = () => {
 
             <Link href="/" className="flex items-center gap-2">
                 <Image
-                  src="https://via.placeholder.com/200x60"
-                  alt="Placeholder"
-                  width={200}
-                  height={60}
+                    src={"/Logos/logo.png"}
+                    alt="Logo"
+                    width={200}
+                    height={60}
+                    className="h-11 w-auto object-contain"
                 />
-
             </Link>
 
             {path === "/" && (
