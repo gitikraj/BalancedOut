@@ -178,7 +178,7 @@ export default function LandingPage() {
 
       {/* ───── Footer ───── */}
       <footer className="border-t bg-gray-50 py-12 text-center text-sm text-muted-foreground">
-        © {new Date().getFullYear()} Splitr. All rights reserved.
+        © {new Date().getFullYear()} BalancedOut. All rights reserved.
       </footer>
     </div>
   );
