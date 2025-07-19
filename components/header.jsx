@@ -28,7 +28,7 @@ const Header = () => {
                 <Image
                     src="/logo.png"
                     alt="Logo"
-                    width={200}
+                    width={150}
                     height={60}
                     className="h-11 w-auto object-contain"
                 />
