@@ -6,6 +6,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import { FEATURES, STEPS, TESTIMONIALS } from "@/lib/landing";
+import FabNewExpense from "@/components/ui/FabNewExpense";
+
 
 export default function LandingPage() {
   return (
@@ -175,6 +177,8 @@ export default function LandingPage() {
           </Button>
         </div>
       </section>
+      {/* ───── Floating Action Button ───── */}
+      <FabNewExpense />
 
       {/* ───── Footer ───── */}
       <footer className="border-t bg-gray-50 py-12 text-center text-sm text-muted-foreground">
