@@ -50,18 +50,19 @@ export default function LandingPage() {
           </div>
         </div>
 
-        <div className="container mx-auto w-[580px] h-[580px] overflow-hidden rounded-xl shadow-xl">
-          <div className="gradient p-1 w-[580px] h-[580px]">
+        <div className="container mx-auto max-w-[580px] max-h-[580px] w-full h-auto overflow-hidden rounded-xl shadow-xl">
+          <div className="gradient p-1 w-full h-full max-w-[580px] max-h-[580px]">
             <Image
               src="/hero.png"
               width={580}
               height={580}
               alt="Banner"
-              className="rounded-lg mx-auto"
+              className="rounded-lg mx-auto w-full h-auto"
               priority
             />
           </div>
         </div>
+
       </section>
 
       {/* ───── Features ───── */}
